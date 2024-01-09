@@ -5,7 +5,7 @@ import wallet from "../assets/wallet.svg";
 
 const SidePanel = () => {
   return (
-    <div className="bg-[#1E2640] w-[224px] h-[220vh] pt-4 pl-2.5 pr-2.5">
+    <div className="bg-[#1E2640] h-[202vh] pt-4 pl-2.5 pr-2.5">
       <div className="w-[192px] h-[42px] flex items-center mb-8 mr-1 ml-1">
         <img
           src={nishyan}

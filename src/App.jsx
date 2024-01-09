@@ -5,11 +5,11 @@ import SidePanel from "./components/SidePanel";
 
 function App() {
   return (
-    <div className="flex min-h-screen">
+    <div className="flex min-h-screen w-[100vw]">
       <SidePanel />
-      <div className="flex flex-col w-[1216px] min-h-screen">
+      <div className="flex flex-col w-full min-h-screen">
         <Header />
-        <div className="flex-grow bg-neutral-50 p-8">
+        <div className="flex-grow bg-neutral-50 p-8 pl-12">
           <Data/>
         </div>
       </div>

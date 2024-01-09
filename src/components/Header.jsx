@@ -5,7 +5,7 @@ import menu from "../assets/Menu.svg";
 
 const Header = () => {
   return (
-    <div className="w-[1216px] h-[64px] bg-white pl-8 pr-8 pt-3 pb-3 flex items-center border-b-2">
+    <div className="w- h-[64px] bg-white pl-8 pr-8 pt-3 pb-3 flex items-center border-b-2">
       <div className=" flex items-center w-[360px] h-8 mr-4">
         <div className="mr-4 text-zinc-900 text-base font-normal leading-snug">
           Payments
@@ -27,7 +27,7 @@ const Header = () => {
           />
         </div>
       </div>
-      <div className="w-[510px] h-[40px] flex items-center justify-end">
+      <div className=" w-[410px] h-[40px] flex items-center justify-end">
         <div className="w-9 h-9 bg-neutral-200 rounded-full flex items-center justify-center mr-3">
             <img src={group} alt="group"/>
         </div>
