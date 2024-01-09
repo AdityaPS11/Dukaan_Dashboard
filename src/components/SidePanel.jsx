@@ -25,7 +25,7 @@ const SidePanel = () => {
         </div>
       </div>
       <Pages />
-      <div className="w-[192px] h-[54px] bg-[#353C53]  mt-[350%] rounded pl-3 pt-2 pb-2 flex items-center">
+      <div className="w-[192px] h-[54px] bg-[#353C53]  mt-[320%] rounded pl-3 pt-2 pb-2 flex items-center">
         <div className="w-9 h-9 bg-white bg-opacity-10 flex items-center justify-center rounded mr-3">
           <img src={wallet} alt="wallet" />
         </div>
